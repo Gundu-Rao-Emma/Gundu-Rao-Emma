@@ -1,8 +1,0 @@
-CREATE TABLE test_ccy_exchg_rate
-(
-	ccy_cd               nchar(3)  NOT NULL ,
-	ccy_exchg_dt         date  NOT NULL ,
-	ccy_exchg_rate       decimal(20,9)  NOT NULL ,
-	etl_strt_ts          timestamp with time zone  NOT NULL ,
-	etl_end_ts           timestamp with time zone  NOT NULL
-);
